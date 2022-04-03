@@ -1,7 +1,7 @@
 @echo off
 echo getfg Installer
 echo.
-echo Are you sure you wanna Install Alias Creator v1.0.0 Dynamite?
+echo Are you sure you wanna Install Alias Creator v1.0.1 ?
 set /p sure="> "
 
 if "%sure%" == "yes" goto yes
