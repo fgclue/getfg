@@ -11,7 +11,7 @@ if "%sure%" == "no" goto no
 echo Where to store C++ Simulator?
 echo (e.g. C:\Directory\AliasCreator\)
 set /p stored="> "
-if not exist "C:\clueapps\CPPSim" mkdir C:\clueapps\CPPSim > NUL
+if not exist "%stored%" mkdir %stored% > NUL
 cd /d %stored% 
 wget https://raw.githubusercontent.com/fgclue/repository-of-apps/main/windows/aliascreator.bat
 echo true > firsttime.acd
