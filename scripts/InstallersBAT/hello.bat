@@ -1,6 +1,6 @@
 @echo off
 echo getfg Installer
-echo.
+echo. 
 echo Are you sure you wanna Install Hello World?
 set /p sure="> "
 
