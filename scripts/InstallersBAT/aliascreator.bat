@@ -13,7 +13,7 @@ echo (e.g. C:\Directory\AliasCreator\)
 set /p stored="> "
 if not exist "%stored%" mkdir %stored% > NUL
 cd /d %stored% 
-wget https://raw.githubusercontent.com/fgclue/repository-of-apps/main/windows/aliascreator.bat
+wget https://raw.githubusercontent.com/fgclue/repository-of-apps/main/windows/aliascreator/aliascreator.bat
 echo true > firsttime.acd
 echo Succefully Installed Alias Creator.
 pause
