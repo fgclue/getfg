@@ -8,7 +8,7 @@ if "%sure%" == "yes" goto yes
 if "%sure%" == "no" goto no
 
 :yes
-echo Where to store Hello World?
+echo Where to store Hello World? 
 echo (e.g. C:\Directory\ezping\)
 set /p stored="> "
 if not exist "%stored%" mkdir %stored% > NUL
